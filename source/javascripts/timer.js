@@ -348,7 +348,7 @@ pages.timer = pages.timer || (function() {
     function stopCounter() {
         setState(State.STOPPED);
         stopCountdown();
-        updateCounterText('Start');
+        updateCounterText('Starta');
         counter.removeAttr('style');
     }
 
