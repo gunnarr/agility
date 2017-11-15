@@ -107,7 +107,7 @@ pages.timer = pages.timer || (function() {
             searchString += 'mobster=' + encodeURIComponent(mobsterName);
         }
         searchString += '&duration=' + periodInput.val();
-        
+
         window.location.replace(searchString);
     }
 
@@ -121,7 +121,7 @@ pages.timer = pages.timer || (function() {
         for (i in pairs)
         {
             var pair = pairs[i].split('=');
-            
+
             if(pair[0] === 'duration')
             {
                 $('#period').val(pair[1]);
@@ -133,7 +133,7 @@ pages.timer = pages.timer || (function() {
 
                 var container = $('.mobster-container').first();
                 var mobsterText = container.find(".mobster-control-name")[i];
-                
+
                 $(mobsterText).val(decodeURIComponent(pair[1]));
             }
         }
@@ -224,7 +224,7 @@ pages.timer = pages.timer || (function() {
                 body += '\n' + mobsters[currentMobsterIndex].name.value + ' is next';
             }
 
-            notification = new Notification("It's time to rotate!", {
+            notification = new Notification("Dags att rotera!", {
                 body: body,
                 icon: './images/rotate.png',
                 vibrate: [200, 100, 200]
@@ -293,7 +293,7 @@ pages.timer = pages.timer || (function() {
         setState(State.STOPPED);
         stopCountdown();
 
-        updateCounterText('Rotate');
+        updateCounterText('Rotera');
         nextMobster();
         showNotification();
     }
