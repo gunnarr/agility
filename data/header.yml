@@ -2,6 +2,12 @@ links:
   - name: Timer
     url: /timer.html
     icon: clock-o
-  - name: Source
-    url: https://github.com/jahed/agility
-    icon: github
+  - name: Snusket
+    url: http://www.tellomat.se/inhousecatering/lunchmeny/
+    icon: fa-cutlery
+    name: Sida
+    url: http://www.rosiescatering.se/karavans-meny-16445472
+    icon: fa-cutlery
+    name: Radiohuset
+    url: https://radionsskafferi.gastrogate.com/lunch/
+    icon: fa-cutlery
