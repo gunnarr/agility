@@ -6,7 +6,7 @@ links:
     url: https://my.omniture.com/login/
     icon: fa fa-line-chart
   - name: Linkpulse
-     url: http://app.linkpulse.com/lp/login
+    url: http://app.linkpulse.com/lp/login
     icon: fa fa-line-chart
   - name: Snusket
     url: http://www.tellomat.se/inhousecatering/lunchmeny/
