@@ -2,6 +2,12 @@ links:
   - name: Timer
     url: /timer.html
     icon: clock-o
+  - name: Adobe Analytics
+    url: https://my.omniture.com/login/
+    icon: fa fa-line-chart
+  - name: Linkpulse
+     url: http://app.linkpulse.com/lp/login
+    icon: fa fa-line-chart
   - name: Snusket
     url: http://www.tellomat.se/inhousecatering/lunchmeny/
     icon: fa fa-cutlery
