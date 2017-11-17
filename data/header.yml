@@ -4,10 +4,10 @@ links:
     icon: clock-o
   - name: Snusket
     url: http://www.tellomat.se/inhousecatering/lunchmeny/
-    icon: fa-cutlery
-    name: Sida
+    icon: fa fa-cutlery
+  - name: Sida
     url: http://www.rosiescatering.se/karavans-meny-16445472
-    icon: fa-cutlery
-    name: Radiohuset
+    icon: fa fa-cutlery
+  - name: Radiohuset
     url: https://radionsskafferi.gastrogate.com/lunch/
-    icon: fa-cutlery
+    icon: fa fa-cutlery
