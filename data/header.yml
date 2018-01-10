@@ -1,6 +1,9 @@
 links:
-  - name: Timer
+  - name: Timer [sport]
     url: /timer.html
+    icon: clock-o
+  - name: Timer [news]
+    url: /news.html
     icon: clock-o
   - name: Adobe Analytics
     url: https://my.omniture.com/login/
